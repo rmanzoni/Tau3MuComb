@@ -1,0 +1,22 @@
+tree->Scan("run:lumi:event", "bdt>0.91 & abs(cand_refit_tau_eta)<1.6 & (( ((abs(cand_refit_mass12-1.020)<0.02)*(cand_charge12==0)) + ((abs(cand_refit_mass13-1.020)<0.02)*(cand_charge13==0)) + ((abs(cand_refit_mass23-1.020)<0.02)*(cand_charge23==0)) )==0 & ( ((abs(cand_refit_mass12-0.782)<0.02)*(cand_charge12==0)) + ((abs(cand_refit_mass13-0.782)<0.02)*(cand_charge13==0)) + ((abs(cand_refit_mass23-0.782)<0.02)*(cand_charge23==0)) )==0 & abs(cand_charge)==1 & abs(cand_refit_tau_mass-1.8)<0.2& ((mu1_hlt_doublemu3_trk_tau3mu_type==83 & mu2_hlt_doublemu3_trk_tau3mu_type==83 & cand_mass12>0.5 & cand_mass12<1.7) |   (mu1_hlt_doublemu3_trk_tau3mu_type==83 & mu3_hlt_doublemu3_trk_tau3mu_type==83 & cand_mass13>0.5 & cand_mass13<1.7) |   (mu2_hlt_doublemu3_trk_tau3mu_type==83 & mu3_hlt_doublemu3_trk_tau3mu_type==83 & cand_mass23>0.5 & cand_mass23<1.7) ))", "colsize=20")
+*********************************************************************************
+*    Row   *                  run *                 lumi *                event *
+*********************************************************************************
+*    26542 *                    1 *                14428 *            919455711 *
+*    32808 *                    1 *                 4187 *            266803741 *
+*********************************************************************************
+==> 2 selected entries
+(long long) 2
+
+tree->Scan("run:lumi:event", "bdt>0.76 & abs(cand_refit_tau_eta)>=1.6 & (( ((abs(cand_refit_mass12-1.020)<0.02)*(cand_charge12==0)) + ((abs(cand_refit_mass13-1.020)<0.02)*(cand_charge13==0)) + ((abs(cand_refit_mass23-1.020)<0.02)*(cand_charge23==0)) )==0 & ( ((abs(cand_refit_mass12-0.782)<0.02)*(cand_charge12==0)) + ((abs(cand_refit_mass13-0.782)<0.02)*(cand_charge13==0)) + ((abs(cand_refit_mass23-0.782)<0.02)*(cand_charge23==0)) )==0 & abs(cand_charge)==1 & abs(cand_refit_tau_mass-1.8)<0.2& ((mu1_hlt_doublemu3_trk_tau3mu_type==83 & mu2_hlt_doublemu3_trk_tau3mu_type==83 & cand_mass12>0.5 & cand_mass12<1.7) |   (mu1_hlt_doublemu3_trk_tau3mu_type==83 & mu3_hlt_doublemu3_trk_tau3mu_type==83 & cand_mass13>0.5 & cand_mass13<1.7) |   (mu2_hlt_doublemu3_trk_tau3mu_type==83 & mu3_hlt_doublemu3_trk_tau3mu_type==83 & cand_mass23>0.5 & cand_mass23<1.7) ))", "colsize=20")
+*********************************************************************************
+*    Row   *                  run *                 lumi *                event *
+*********************************************************************************
+*     7443 *                    1 *                 6076 *            387195958 *
+*    17578 *                    1 *                15331 *            977006322 *
+*    32078 *                    1 *                 4639 *            295647728 *
+*    56126 *                    1 *                15991 *           1019106654 *
+*    65809 *                    1 *                16689 *           1063560526 *
+*********************************************************************************
+==> 5 selected entries
+(long long) 5
