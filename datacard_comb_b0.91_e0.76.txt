@@ -11,27 +11,27 @@ shapes data_obs    endcap      datacard_endcap0.76.root t3m_shapes:data_obs
 shapes signal      endcap      datacard_endcap0.76.root t3m_shapes:sig
 ----------------------------------------------------------------------------------------------------------------------------------
 bin          barrel  endcap
-observation  3       35
+observation  3       37    
 ----------------------------------------------------------------------------------------------------------------------------------
-bin                                   barrel      barrel      endcap      endcap
+bin                                   barrel      barrel      endcap      endcap    
 process                               signal      background  signal      background
-process                               0           1           0           1
-rate                                  1.7586      3.0708      1.0995      30.577
+process                               0           1           0           1         
+rate                                  1.7586      3.0708      1.0995      30.577    
 ----------------------------------------------------------------------------------------------------------------------------------
-br_Wmunu                lnN           1.0015      -           1.0015      -
-br_Wtaunu               lnN           1.0021      -           1.0021      -
-hlt_extrap              lnN           1.05        -           1.05        -
-lumi                    lnN           1.025       -           1.025       -
-mc_stat_barrel0.91      lnN           1.0449      -           -           -
-mc_stat_endcap0.76      lnN           -           -           1.0568      -
-mu_hlt_barrel0.91       lnN           1.012       -           -           -
-mu_hlt_endcap0.76       lnN           -           -           1.04        -
-mu_id_barrel0.91        lnN           1.044       -           -           -
-mu_id_endcap0.76        lnN           -           -           1.078       -
-trk_hlt_barrel0.91      lnN           1.0086      -           -           -
-trk_hlt_endcap0.76      lnN           -           -           1.0086      -
-xs_W                    lnN           1.037       -           1.037       -
+br_Wmunu                lnN           1.0015      -           1.0015      -         
+br_Wtaunu               lnN           1.0021      -           1.0021      -         
+hlt_extrap              lnN           1.05        -           1.05        -         
+lumi                    lnN           1.025       -           1.025       -         
+mc_stat_barrel0.91      lnN           1.0449      -           -           -         
+mc_stat_endcap0.76      lnN           -           -           1.0568      -         
+mu_hlt_barrel0.91       lnN           1.012       -           -           -         
+mu_hlt_endcap0.76       lnN           -           -           1.04        -         
+mu_id_barrel0.91        lnN           1.044       -           -           -         
+mu_id_endcap0.76        lnN           -           -           1.078       -         
+trk_hlt_barrel0.91      lnN           1.0086      -           -           -         
+trk_hlt_endcap0.76      lnN           -           -           1.0086      -         
+xs_W                    lnN           1.037       -           1.037       -         
 a0_endcap0.76  param  -2.7457 1.9279
 a0_barrel0.91  param  6.6328 7.8821
-bkgNorm_endcap0.76  rateParam endcap background 1.
-bkgNorm_barrel0.91  rateParam barrel background 1.
+bkgNorm_endcap0.76  rateParam endcap background 1.  
+bkgNorm_barrel0.91  rateParam barrel background 1.  
